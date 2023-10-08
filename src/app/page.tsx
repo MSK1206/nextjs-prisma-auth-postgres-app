@@ -24,7 +24,7 @@ export default function Home() {
                 <button
                   onClick={() =>
                     signIn('github', {
-                      callbackUrl: 'http://localhost:3000/loginok',
+                      callbackUrl: `${process.env.NEXTAUTH_URL}/login-ok`,
                     })
                   }
                   type="button"
