@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { signIn } from 'next-auth/react';
 
 export default function Home() {
+  const baseurl = process.env.NEXT_PUBLIC_BASE_URL || '';
   return (
     <main className="">
       <div className="hero min-h-screen bg-base-200">
@@ -24,7 +25,7 @@ export default function Home() {
                 <button
                   onClick={() =>
                     signIn('github', {
-                      callbackUrl: `${process.env.NEXTAUTH_URL}/login-ok`,
+                      callbackUrl: `${baseurl}/login-ok`,
                     })
                   }
                   type="button"
