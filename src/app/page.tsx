@@ -1,6 +1,7 @@
 'use client';
-import Image from 'next/image';
 import { signIn } from 'next-auth/react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -21,13 +22,9 @@ export default function Home() {
                 <button className="btn btn-primary">Sign In with Google</button>
               </div>
               <div className="form-control mt-6">
-                <button
-                  onClick={() => signIn('github')}
-                  type="button"
-                  className="bg-slate-800 my-4 text-white p-3 rounded-lg"
-                >
-                  Sign in with Github
-                </button>
+                <Link href="/login">
+                  Sign in
+                </Link>
               </div>
             </form>
           </div>
