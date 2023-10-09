@@ -11,6 +11,6 @@
     <img src="https://img.shields.io/twitter/follow/Msk_init?style=flat&label=Msk_init&logo=twitter&color=0bf&logoColor=fff" alt="Msk_init Twitter follower count" />
   </a>
   <a href="https://github.com/MSK1206/nextjs-prisma-auth-postgres-app">
-    <img src="https://img.shields.io/github/stars/MSK1206/nextjs-prisma-auth-postgres-app?label=MSK1206%2Fprecedent" alt="nextjs-prisma-auth-postgres-app repo star count" />
+    <img src="https://img.shields.io/github/stars/MSK1206/nextjs-prisma-auth-postgres-app?label=MSK1206%2Fnextjs-prisma-auth-postgres-app" alt="nextjs-prisma-auth-postgres-app repo star count" />
   </a>
 </p>
