@@ -1,5 +1,5 @@
-'use client';
-import { signIn } from 'next-auth/react';
+
+import SignIn from '@/components/layout/SignIn';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -16,18 +16,7 @@ export default function Home() {
             className="animate-rotate-center"
             priority
           />
-          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <form className="card-body w-80">
-              <div className="form-control mt-6">
-                <button className="btn btn-primary">Sign In with Google</button>
-              </div>
-              <div className="form-control mt-6">
-                <Link href="/login">
-                  Sign in
-                </Link>
-              </div>
-            </form>
-          </div>
+          <SignIn />
         </div>
       </div>
     </main>
