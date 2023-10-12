@@ -15,4 +15,8 @@
   </a>
 </p>
 
-<h1 align="center">現在作成中です</h1>
+### 概要
+
+---
+
+- Next.js 13 + NextAuth with Prisma × PostgreSQLで認証をするチュートリアルになります
